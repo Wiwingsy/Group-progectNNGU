@@ -1,0 +1,552 @@
+/*ГРУППЫ*/
+
+@media screen and (max-width: 1250px) {
+    /* экраны меньше 1250px */
+    /* планшет 1024 */
+
+    .container{
+        width: 850px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    h1{
+        margin-top: 30px;
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    .page-header__menu-groups{
+        margin: 0;
+        padding: 0;
+        justify-content: left;
+    }
+
+    section{
+        margin-top: 84px;
+    }
+
+    .section-composition__roles{
+        margin-top: 30px;
+    }
+
+    .section-composition__roles img{
+        width: 160px;
+        height: 160px;
+    }
+
+    .section-composition__role-text{
+        margin-top: 4px;
+    }
+
+    .section-teachers__card{
+        margin-right: 85px;
+    }
+
+    .section-teachers__card img{
+        width: 140px;
+        height: 144px;
+    }
+
+    .section-teachers__card-text{
+        margin-top: 13px;
+    }
+
+    .section-groups__table{
+        width: 820px;
+        margin-bottom: 20px;
+    }
+
+    .section-groups__table-photos{
+        padding: 27px 25px;
+    }
+
+    .section-groups__table-photo{
+        margin-right: 34px;
+    }
+
+    .section-groups__table-photo img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .section-groups__photo-text{
+        margin-top: 11px;
+    }
+
+    .section-groups__description-title{
+        margin-top: 34px;
+        padding-left: 20px;
+    }
+
+    .section-groups__description-text{
+        width: 516px;
+        padding-left: 20px;
+    }
+
+    .section-groups__links-items{
+        margin-left: 45px;
+        line-height: 2;
+    }
+
+    .section-groups__links-items ul{
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    /*экраны меньше 440px*/
+    /*мобильный телефон*/
+
+    .container{
+        width: 350px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    h1{
+        margin-top: 15px;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    h2, h3{
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .mainmenu__items-groups{
+        margin: 0;
+        padding: 0;
+        justify-content: left;
+    }
+
+    .mainmenu__item-groups{
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    section{
+        margin-top: 20px;
+    }
+
+    .section-composition__roles{
+        margin-top: 20px;
+    }
+
+    .section-composition__roles img{
+        width: 71px;
+        height: 71px;
+    }
+
+    .section-composition__role{
+        margin-right: 20px;
+    }
+
+    .section-composition__role-text{
+        margin-top: 3px;
+        font-size: 8px;
+    }
+
+    .section-teachers__cards{
+        margin-top: 20px;
+    }
+
+    .section-teachers__card{
+        margin-right: 20px;
+    }
+
+    .section-teachers__card img{
+        width: 73px;
+        height: 73px;
+    }
+
+    .section-teachers__card-text{
+        font-size: 8px;
+    }
+
+    .section-groups__table{
+        width: 350px;
+    }
+
+    .section-groups__table-group{
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .section-groups__table-header{
+        height: 38px;
+        padding-left: 10px;
+    }
+
+    .section-groups__group{
+        width: 93px;
+    }
+
+    .section-groups__project{
+        padding-left: 10px;
+    }
+
+    .section-groups__table-content{
+        display: none;
+    }
+
+    .section-groups__table-toogle{
+        display: block;
+        position: absolute;
+        right: 8px;
+        top: 11px;
+        background: none;
+        border: none;
+        padding: 0;
+        width: 18px;
+        height: 18px;
+    }
+
+    .section-groups__table-toogle.is-active + .section-groups__table-content{
+        display: block;
+    }
+
+    .section-groups__table-photos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 44px;
+        row-gap: 0px;
+        padding: 8px 33px 0 33px;
+    }
+
+    .section-groups__table-photo{
+        margin-right: 0;
+    }
+
+    .section-groups__table-photo img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .section-groups__photo-text{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .section-groups__table-text{
+        flex-direction: column-reverse;
+    }
+
+    .section-groups__links-items{
+        font-size: 11px;
+        margin-left: 33px;
+    }
+
+    .section-groups__links-items ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 16px;
+    }
+
+    .verticalline{
+        border-right: 0px;
+        border-top: 1px solid black;
+    }
+
+    .section-groups__description-title{
+        margin-top: 13px;
+        font-size: 10px;
+    }
+
+    .section-groups__description-text{
+        font-size: 10px;
+        width: 350px;
+        margin-top: 5px;
+    }
+
+    .page-footer__row{
+        height: 50px;
+    }
+    footer p{
+        font-size: 5px;
+    }
+    .logo__info{
+        font-size: 5px;
+        margin-left:  5px;
+        font-weight: 500;
+    }
+    .copyright__info{
+        font-size: 5px;
+    }
+    .svg-logo{
+        width:15px;
+        height: 15px;
+    }
+}
+
+
+
+/* ГЛАВНАЯ */
+
+/* 1024px */
+@media screen and (max-width: 1250px) {
+    h1{
+        margin-top: 30px;
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+    .subtitle{
+        font-size: 36px;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 26px;
+    }
+    .mainmenu{
+        margin: 0;
+        padding: 0;
+        justify-content: left;
+    }
+    .page-header__text{
+    font-size: 20px;
+    width: 850px;
+    margin-top: 0px;
+
+    }
+    .container {
+        max-width:  815px;
+        margin: 0 auto;
+        padding: 0 20px;
+        }
+    .mainmenu__item{
+        font-size: 24px;
+        padding-left:50px;
+        padding-top: 20px;
+        padding-bottom: 26px;
+        }
+    .page-header__info { 
+        max-width: 550px;
+    }
+    .btn{
+        padding: 0px 8px;
+        height: 37px;
+        font-size: 15px;
+    }
+    .alumni-btn{
+        margin-right:  18px; 
+        margin-bottom:  17px;
+    }
+
+    .best-projects__subtitle{
+        font-size: 24px;
+        font-weight: 400;
+        }
+    .best-projects__grid{
+        grid-gap:108px 123px ;
+        }
+    .best-projects__website img{
+        max-width: 351px;
+        }
+    .best-projects__text{
+        font-size: 16px;
+        }
+    #btn-grid{
+        margin-top: 67px;
+        margin-bottom: 95px;
+        }
+    footer p{
+        font-size: 10px;
+        }
+    .logo__info{
+        font-size: 10px;
+        margin-left:  30px;
+        font-weight: 500;
+        }
+    .copyright__info{
+    font-size: 10px;
+        }
+    .svg-logo{
+        width:40px;
+        height: 40px;
+        }
+}
+
+
+/* mobile small */
+@media screen and (max-width: 440px) {
+    h1{
+        margin-top: 15px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .subtitle{
+        font-size: 16px;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mainmenu{
+        margin: 0;
+        padding: 0;
+        justify-content: left;
+    }
+    .page-header__info {
+        max-width: 150px;
+    }
+    .mainmenu__item{
+        font-size: 14px;
+        padding-left:24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .container {
+        width:  320px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .page-header__text{
+        width: 320px;
+        font-size: 12px;
+    }
+    .btn{
+        padding: 0px 5px;
+        height: 15px;
+        font-size: 5px;
+    }
+    .alumni-btn{
+        margin-right:  5px; 
+        margin-bottom:  5px;
+    }
+    .best-projects__subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    }
+    .best-projects__grid{
+        grid-template-columns: none ;
+        grid-gap:15px ;
+    }
+    .best-projects__website img{
+        max-width: 310px;
+    }
+    .best-projects__text{
+        font-size: 10px;
+    }
+    #btn-grid{
+        margin-top: 10px;
+        margin-bottom: 57px;
+    }
+    footer p{
+        font-size: 5px;
+    }
+    .logo__info{
+        font-size: 4px;
+        margin-left:  5px;
+        font-weight: 500;
+    }
+    .copyright__info{
+        font-size: 4px;
+    }
+    .svg-logo{
+        width:15px;
+        height: 15px;
+    }
+}
+
+/* КОНТАКТЫ*/
+
+@media screen and (max-width: 1250px) {
+    /* экраны меньше 1250px */
+    /* планшет 1024 */
+
+    .mainmenu__items-mainmenu li{
+        font-size: 24px;
+    }
+
+    .section-info__card img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .section-info__card-text{
+        margin-bottom: 0;
+        margin-left: 40px;
+        width: 139px;
+    }
+
+    .section-info__card-name{
+        font-size: 16px;
+    }
+/* 
+    p{
+        font-size: 16px;
+    } */
+
+    .page-footer__copyright p {
+        font-size: 10px;
+    }
+
+    .logo__info p {
+        font-size: 10px;
+    }
+}
+
+
+    @media screen and (max-width: 440px) {
+    /*экраны меньше 440px*/
+    /*мобильный телефон*/
+
+    .mainmenu__items-mainmenu li{
+        margin-right: 30px;
+        font-size: 14px;
+    }
+
+    .section-info{
+        margin-top: 55px;
+    }
+
+    .section-info__card{
+        margin-bottom: 24px;
+    }
+
+    .section-info__card img{
+        width: 72px;
+        height: 72px;
+    }
+
+    .section-info__card-text{
+        margin-left: 20px;
+    }
+    
+    .section-info__card-subject{
+        font-size: 8px;
+    }
+
+    .secnion-info__contact{
+        font-size: 8px;
+    }
+
+    .address-info__contact{
+        font-size: 8px;
+    }
+
+    .address-info__text{
+        font-size: 8px;
+    }
+
+    .section-info__card-name{
+        font-size: 8px;
+        line-height: 1.5;
+    }
+
+    .address-info{
+        margin-bottom: 20px;
+    }
+
+    .address-web{
+        font-size: 8px;
+    }
+
+    .page-footer__copyright p{
+        font-size: 5px;
+    }
+}

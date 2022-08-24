@@ -1,0 +1,442 @@
+/*Общий код*/
+:root{
+    --color-silver:#E5E5E5;
+    --color-text:#000000;
+    --color-hover:#0A881E;
+
+    --font-family-base:'Inter';
+    --font-family-unique:'Oswald';
+}
+
+body{
+    line-height: 1.5;
+    background-color: var(--color-silver);
+    color: var(--color-text);
+}
+
+.container{
+    width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a, a:visited{ /* надо добавить просто "а", иначе чернеет ссылка,только когда она посещена(и инфа остаётся в кэше)*/
+    color: var(--color-text);
+}
+
+a:hover{
+    color: var(--color-hover);
+    transition: all 0.25s ease;
+}
+
+h1{
+    margin-top: 80px; /*предлагаю на всех страницах сделать круглое число, а то на главной 79, на второй 82 в макете*/
+    font-family: var(--font-family-unique);
+    font-size: 128px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+/*общий футер*/
+
+.page-footer{
+    border-top: solid 1px black;
+}
+.page-footer__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-family: var(--font-family-base);
+    font-size: 16px;
+}
+.logo__info{
+    font-size: 13px;
+    margin-left:  25px;
+    font-weight: 400;
+}
+.copyright__info{
+    font-size: 20px;
+}
+.page-footer__copyright{
+    text-align: right;
+}
+.fpk-unn{
+    text-decoration: none;
+}
+.logo:hover{
+    fill:var(--color-hover);
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+/*Главная страница*/
+
+.page-header__row{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding: 0px 10px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 50px;
+    font-family: var(--font-family-base);
+    font-size: 20px;
+    font-weight: 400;
+}
+.page-header__info{
+    max-width: 815px;
+}
+.subtitle{
+    font-family: var(--font-family-unique);
+    font-weight: 500;
+    font-size: 64px;
+    margin: 0;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.page-header__text{
+    font-family: var(--font-family-base);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.mainmenu__item{
+    font-family: var(--font-family-unique);
+    font-size: 36px;
+    font-weight: 400;
+    padding-left: 61px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.alumni-groups__row{
+    display: flex;
+    justify-content: start;
+}
+.alumni-btn{
+    margin-right:  24px; 
+    margin-bottom:  18px;
+}
+.alumni-btn--big{
+    padding: 0px 20px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.btn--more:hover{
+    color: var(--color-hover);
+    transition: all 0.25s ease;
+    margin-bottom:  18px;
+}
+.btn--more{
+    background-color: transparent;
+}
+.display-none{
+    display: none;
+}
+.best-projects__subtitle{
+    font-family: var(--font-family-unique);
+    font-size: 36px;
+    font-weight: 400;
+}
+.best-projects__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:125px 191px ;
+}
+.best-projects__website:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.best-projects__text{
+    font-family: var(--font-family-base);
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-right{
+    display: flex;
+    justify-content: right;
+}
+#btn-grid{
+    margin-top: 124px;
+    margin-bottom: 198px;
+}
+
+
+
+
+
+/*Страница группы*/
+
+h2{
+    font-family: var(--font-family-unique);
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: var(--font-family-unique);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+section{                /*по-правильному отступ у секций лучше чтобы был одинаковый*/
+    margin-top: 100px;
+}
+
+.verticallinesm{        /*малая вертикальная линия,которая не доходит до концов*/
+    border-left: 1px solid #000;
+}
+
+.verticalline{
+    border-right: 1px solid #000;
+    margin-top: 9px;
+}
+
+
+/*Шапка страницы групп*/
+
+.mainmenu__items-groups{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainmenu__item-groups{
+    margin-left: 74px;
+    font-family: var(--font-family-unique);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+/* Секция "состав группы"*/
+
+.section-composition{
+    margin-top: 0;
+}
+
+.section-composition__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-composition__roles{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.section-composition__role{
+    margin-right: 70px;
+}
+
+.section-composition__role-text{
+    margin-top: 24px;
+    font-family: var(--font-family-base);
+    font-weight: 400;
+}
+
+/* Секция "преподаватели"*/
+
+.section-teachers__cards{
+    display: flex;
+    justify-content: start;
+    margin-top: 53px;
+}
+
+.section-teachers__card{
+    margin-right: 147px;
+}
+
+.section-teachers__card-text{
+    margin-top: 24px;
+    font-family: var(--font-family-base);
+    font-size: 16px;
+}
+
+.section-teachers__card-subject{
+    color: var(--color-hover);
+}
+
+/* Секция "группы"*/
+
+.section-groups__table{
+    width: 1400px;
+}
+
+.section-groups__table-group{
+    border: 1px solid black;
+    border-bottom: 0;
+    margin-bottom: 60px;
+}
+
+.section-groups__table-header{
+    display: flex;
+    align-items: center;
+    height: 134px;
+    padding-left: 37px;
+    border-bottom: 1px solid black;
+}
+
+.section-groups__group{
+    width: 205px;
+}
+
+.section-groups__project{
+    padding-left: 35px;
+}
+
+.section-groups__table-toogle{
+    display: none;
+}
+
+.section-groups__table-photos{
+    display: flex;
+    justify-content: start;
+    padding: 37px 43px;
+    border-bottom: 1px solid black;
+}
+
+.section-groups__table-photo{
+    margin-right: 68px;
+}
+
+.section-groups__photo-text{
+    margin-top: 24px;
+    font-family: var(--font-family-base);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section-groups__table-text{
+    display: flex;
+}
+
+.section-groups__description-title{
+    margin-top: 42px;
+    font-family: var(--font-family-base);
+    font-size: 24px;                     
+    font-weight: 400;
+    padding-left: 37px;
+}
+
+.section-groups__description-text{
+    width: 727px;
+    margin-top: 21px;
+    font-family: var(--font-family-base);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 37px;
+}
+
+.section-groups__links-items{
+    margin-left: 160px;
+    font-family: var(--font-family-base);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-groups__links-items ul{
+    margin-top: 0;
+    padding-top: 54px;
+}
+
+.section-groups__links-item{
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Страница Контакты*/
+.page-header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainmenu__items-mainmenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainmenu__item-mainmenu{
+    margin-right: 74px;
+    font-family: var(--font-family-unique);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.section-info__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.section-info__card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.address-info{
+    width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.address-info{
+    margin-bottom: 155px;
+    font-size: normal;
+}
+
+p{
+    font-family:'Inter';
+}
+
+.section-info__card-name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.section-info__card-subject{
+    color: #0A881E;
+}
+
+.section-info__card-text{
+    margin-left: 20px;
+    margin-bottom: 155px;
+}
+
+.address-web{
+    font-family:'Inter';
+}
+
+
+
+
+
+
+

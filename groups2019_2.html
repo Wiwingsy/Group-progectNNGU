@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы Web-технологии в ННГУ</title>
+    <!-- подключаем шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imge/x-icon" href="images/favicon.ico" >
+    <!-- подключаем стили -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles//responsive.css">
+</head>
+<body class="page">
+    <!-- шапка страницы -->
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header__title">
+                <!--Заголовок-->
+                <h1>ПРОЕКТЫ ГРУПП<br>ОКТЯБРЬ-ДЕКАБРЬ 2019</h1>
+            </div>
+        </div>
+    </header>
+    <!-- Основной контент -->
+    <main>
+        <!--Секция "состав группы"-->
+        <section class="section-composition">
+            <div class="container">
+                <div class="section-composition__row">
+                    <div class="section-composition__menu">
+                        <h2 class="section-composition__title">СОСТАВ ГРУППЫ</h2>
+                        <!--Меню сайта-->
+                        <nav class="page-header__menu-groups">
+                            <ul class="mainmenu__items-groups">
+                                <li class="mainmenu__item-groups"><a href="./index.html">Проекты</a></li>
+                                <li class="mainmenu__item-groups"><a href="./contacts.html">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="section-composition__roles">
+                        <div class="section-composition__role">
+                            <img src="images/leader.svg" alt="leader">
+                            <div class="section-composition__role-text">Лидер</div>
+                        </div>
+                        <div class="section-composition__role">
+                            <img src="images/designer.svg" alt="designer">
+                            <div class="section-composition__role-text">Веб-дизайнер</div>
+                        </div>
+                        <div class="section-composition__role">
+                            <img src="images/imposer.svg" alt="imposer">
+                            <div class="section-composition__role-text">Верстальщик</div>
+                        </div>
+                        <div class="section-composition__role">
+                            <img src="images/programmer.svg" alt="programmer">
+                            <div class="section-composition__role-text">Программист</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Секция "преподаватели"-->
+        <section class="section-teachers">
+            <div class="container">
+                <div class="section-teachers__row">
+                    <h2 class="section-teachers__title">ПРЕПОДАВАТЕЛИ</h2>
+                    <div class="section-teachers__cards">
+                        <div class="section-teachers__card">
+                            <img src="images/uskov.png" alt="teacher">
+                            <div class="section-teachers__card-text">
+                                <div class="section-teachers__card-name">Усков Алексей Владимирович</div>
+                                <div class="section-teachers__card-subject">верстка</div>
+                            </div>
+                        </div>
+                        <div class="section-teachers__card">
+                            <img src="images/svintsova.png" alt="teacher">
+                            <div class="section-teachers__card-text">
+                                <div class="section-teachers__card-name">Свинцова Наталья</div>
+                                <div class="section-teachers__card-subject">веб-дизайнер, компания R-top</div>
+                            </div>
+                        </div>
+                        <div class="section-teachers__card">
+                            <img src="images/burova.png" alt="teacher">
+                            <div class="section-teachers__card-text">
+                                <div class="section-teachers__card-name">Бурова Маргарита Сергеевна</div>
+                                <div class="section-teachers__card-subject">преподаватель ННГУ, курс по<br>Photoshop</div>
+                            </div>
+                        </div>
+                        <div class="section-teachers__card">
+                            <img src="images/vildanov.png" alt="teacher">
+                            <div class="section-teachers__card-text">
+                                <div class="section-teachers__card-name">Вильданов Вадим Кадирович</div>
+                                <div class="section-teachers__card-subject">преподаватель<br>ННГУ, курс по PHP</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Секция "группы"-->
+        <section class="section-groups">
+            <div class="container">
+                <div class="section-groups__row">
+                    <h2 class="section-groups__title">ГРУППЫ</h2>
+                    <div class="section-groups__table">
+                        <!--Номер группы,название проекта(Группа 1)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 1</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">ФИТНЕСТУРЫ</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/mironova1.png" alt="photo">
+                                        <div class="section-groups__photo-text">Миронова Наталья<br>лидер (верстка)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/pestereva1.svg" alt="photo">
+                                        <div class="section-groups__photo-text">Пестерева Нина<br>программист</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/mitriev1.png" alt="photo">
+                                        <div class="section-groups__photo-text">Митриев Иван<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/nekrasova1.png" alt="photo">
+                                        <div class="section-groups__photo-text">Некрасова Кира<br>дизайн</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт бронирования туров с возможностью  выбора, просмотром расписания</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project1/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/UsxbBVgvGH50flMvkdt0P4/%D0%A4%D0%B8%D1%82%D0%BD%D0%B5%D1%81_%D1%82%D1%83%D1%80%D1%8B_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF-%D1%81%D0%B0%D0%B9%D1%82%D0%B0?node-id=0%3A1">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 2)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 2</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">КОНФЕРЕНЦИЯ CG СПЕЦИАЛИСТОВ</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/sudyarova2.png" alt="photo">
+                                        <div class="section-groups__photo-text">Судьярова Мария<br>лидер (дизайн)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/rizhukhina2.png" alt="photo">
+                                        <div class="section-groups__photo-text">Рыжухина Светлана<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/salin2.png" alt="photo">
+                                        <div class="section-groups__photo-text">Салин Денис<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/strelkov2.png" alt="photo">
+                                        <div class="section-groups__photo-text">Стрелков Александр<br>программист</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Информация о проведении мероприятия с возможностью покупки билета и регистрации</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project2/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/SktSpHeySEASdKNebY0PJL/%D0%9A%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%8F-CG-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%B2">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 3)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 3</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">ЯЗЫКОВОЙ ЦЕНТР</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/rodionova3.png" alt="photo">
+                                        <div class="section-groups__photo-text">Родионова Юлия<br>лидер (верстка)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/bobrov3.png" alt="photo">
+                                        <div class="section-groups__photo-text">Бобров Александр<br>программист</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/oleschenko3.png" alt="photo">
+                                        <div class="section-groups__photo-text">Олещенко Ольга<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/zhilin3.png" alt="photo">
+                                        <div class="section-groups__photo-text">Жилин Станислав<br>дизайн</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Школа английского языка. Указаны цены и выбор услуг</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project3/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/NhtRvqZqVaBbePFvnbye7G/%D0%AF%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9-%D1%86%D0%B5%D0%BD%D1%82%D1%80?node-id=14%3A2">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 4)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 4</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">БИБЛИОТЕКА</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/gorshkov4.png" alt="photo">
+                                        <div class="section-groups__photo-text">Горшков Александр<br>лидер (программист)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/levina4.png" alt="photo">
+                                        <div class="section-groups__photo-text">Левина Софья<br>дизайн</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/mikeshina4.png" alt="photo">
+                                        <div class="section-groups__photo-text">Микешина Ольга<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/volkov4.png" alt="photo">
+                                        <div class="section-groups__photo-text">Волков Юрий<br>верстка</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт библиотеки нового  уровня в Нижнем Новгороде</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project4/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/SxA8Muvitz5vwHCPSCc4IH/Untitled?node-id=126%3A4">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 5)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 5</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">МОЛОЧНЫЙ ЗАВОД</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/beldugina5.png" alt="photo">
+                                        <div class="section-groups__photo-text">Бельдюгина Наталья<br>лидер (верстка)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/krainova5.png" alt="photo">
+                                        <div class="section-groups__photo-text">Крайнова Лиза<br>дизайн</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/tregubov5.png" alt="photo">
+                                        <div class="section-groups__photo-text">Трегубов Алексей<br>программист</div>
+                                    </div>                                
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт молочного завода с указанием основной номенклатуры</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project5/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/t5KnI6wMRrGRAhnZmyNDMl/Design">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 6)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 6</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">КОНГРЕСС-ЦЕНТР</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/sivohin6.png" alt="photo">
+                                        <div class="section-groups__photo-text">Сивохин Александр<br>лидер (программист)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/malisheva6.png" alt="photo">
+                                        <div class="section-groups__photo-text">Малышева Татьяна<br>дизайн</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/truktanova6.svg" alt="photo">
+                                        <div class="section-groups__photo-text">Труктанова Наталия<br>дизайн (верстка)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/gerasimova6.png" alt="photo">
+                                        <div class="section-groups__photo-text">Герасимова Елена<br>верстка</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт реклама конгресс-центра с возможностью бронирования</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project6/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/ypYlcVv9EoBj5J2yPtdWon/Congress-centre-project">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 7)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 7</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">КУЛИНАРНЫЙ САЙТ</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/sirotkin7.png" alt="photo">
+                                        <div class="section-groups__photo-text">Сироткин Евгений<br>лидер (программист)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/markov7.png" alt="photo">
+                                        <div class="section-groups__photo-text">Марков Александр<br>программист</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/chernov7.png" alt="photo">
+                                        <div class="section-groups__photo-text">Чернов Никита<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/balabanova7.png" alt="photo">
+                                        <div class="section-groups__photo-text">Балабанова Яна<br>дизайн</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Интрнет-магазит посуды и товаров для дома</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project7/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/W2xz3X0dKRmgxV07dgPAMj/Group-Project?node-id=0%3A1">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 8)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 8</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">ЗООПАРК</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/samsonova8.png" alt="photo">
+                                        <div class="section-groups__photo-text">Самсонова Екатерина<br>лидер (программист)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/afinogenova8.png" alt="photo">
+                                        <div class="section-groups__photo-text">Афиногенова Ксения<br>верстка(дизайн)</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт зоопарка, на котором можно купить билет и посмотреть информацию о животных</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project8/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/hDdg1k9ibxMH6USgXMj17i/%D0%97%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 9)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 9</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">ГОРНОЛЫЖНЫЙ КУРОРТ</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/puzankevich9.png" alt="photo">
+                                        <div class="section-groups__photo-text">Пузанкевич Александр<br>лидер (программист)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/fomin9.png" alt="photo">
+                                        <div class="section-groups__photo-text">Фомин Владимир<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/pudovkina9.png" alt="photo">
+                                        <div class="section-groups__photo-text">Пудовкина Наталья<br>дизайн</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Реклама горнолыжного курорта . Описание услуг курорта и возможностью бронирования</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project9/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/gIAJlfCFT3wn9ckJBCBajN/Untitled">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 10)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 10</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">БИЗНЕСКОУЧЕР</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/pirogov10.png" alt="photo">
+                                        <div class="section-groups__photo-text">Пирогов Вадим<br>лидер (программист)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/skomorohov10.svg" alt="photo">
+                                        <div class="section-groups__photo-text">Скоморохов Артем<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/mironov10.png" alt="photo">
+                                        <div class="section-groups__photo-text">Миронов Илья<br>дизайн</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт о бизнес-тренинге</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project10/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/ImG9wJy0f8ZXa33pQnDJ5a/Business-Couch-(Copy)?node-id=0%3A1">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 11)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 11</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">ИНТЕРНЕТ-МАГАЗИН СПЕЦОДЕЖДЫ</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/nikolashin11.png" alt="photo">
+                                        <div class="section-groups__photo-text">Николашин Сергей<br>лидер (верстка)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/voronov11.png" alt="photo">
+                                        <div class="section-groups__photo-text">Воронов Константин<br>дизайн</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/lopuhina11.png" alt="photo">
+                                        <div class="section-groups__photo-text">Лопухина Маргарита<br>программист</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/zeleznov11.png" alt="photo">
+                                        <div class="section-groups__photo-text">Железнов Юрий<br>верстка</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Интернет-магазин спецодежды</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project11/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/FXe2tvFJzjGaPEZCLnaZ8p/Untitled?node-id=0%3A1">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 12)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 12</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">ДЕТСКИЙ САД</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/zinoviev12.png" alt="photo">
+                                        <div class="section-groups__photo-text">Зиновьев Алексей<br>лидер (программист)</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/malamanov12.png" alt="photo">
+                                        <div class="section-groups__photo-text">Маламанов Роман<br>программист</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/korsukov12.png" alt="photo">
+                                        <div class="section-groups__photo-text">Корсуков Денис<br>верстка</div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/malov12.png" alt="photo">
+                                        <div class="section-groups__photo-text">Малов Александр<br>дизайн</div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт Развивающий детский сад “Умка” с выбором программ и групп</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project12/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/KpyrV9mcMoPcKfKkHTS59i/Kindergarten">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 13)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 13</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">САЛОН МОТОТЕХНИКИ</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/shiborkin13.png" alt="photo">
+                                        <div class="section-groups__photo-text">Шиборкин Дмитрий<br></div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт мотоциклов и мототехники</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project13/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/m6p4U1VpFWEyVQLKTPwEPe/Untitled?node-id=0%3A1">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--Номер группы,название проекта(Группа 14)-->
+                        <div class="section-groups__table-group">
+                            <div class="section-groups__table-header">
+                                <h3 class="section-groups__group">ГРУППА 14</h3>
+                                <div class="verticallinesm"> <!--малая вертикальная линия,которая не доходит до концов-->
+                                    <h3 class="section-groups__project">АЭРОСЪЕМКА</h3>
+                                </div>
+                            </div>
+                            <button class="section-groups__table-toogle" type="button" onclick="this.classList.toggle('is-active');"><img src="images/ep_arrow-down.png"></button>
+                            <div class="section-groups__table-content">
+                                <!--Фото участников группы,роли-->
+                                <div class="section-groups__table-photos">
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/shirokov14.png" alt="photo">
+                                        <div class="section-groups__photo-text">Широков Алексей<br></div>
+                                    </div>
+                                    <div class="section-groups__table-photo">
+                                        <img src="images/october2019/sokolov14.png" alt="photo">
+                                        <div class="section-groups__photo-text">Соколов Дмитрий<br></div>
+                                    </div>
+                                </div>
+                                <!--Описание проекта, ссылки-->
+                                <div class="section-groups__table-text">
+                                    <div class="verticalline">
+                                        <div class="section-groups__description">
+                                            <div class="section-groups__description-title">ПРОЕКТ</div>
+                                            <p class="section-groups__description-text">Сайт Аэросъемка мероприятий и земельных участков</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-groups__links">
+                                        <div class="section-groups__links-items">
+                                            <ul>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">БРИФ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="http://kursyweb.ru/2019-2/project14/">САЙТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="https://www.figma.com/file/HsKC98qBzjm9L1nHRpXKh0/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D0%B0%D1%8D%D1%80%D0%BE%D1%81%D1%8A%D0%B5%D0%BC%D0%BA%D0%B8-(Copy)-(Copy)">ССЫЛКА НА ПРОЕКТ</a></li>
+                                                <li class="section-groups__links-item"><a target="_blank" href="#!">ТЕХ. ЗАДАНИЕ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Футер-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="page-footer__row">
+                <div class="page-footer__logo page-footer__row">
+                    <a target="_blank"  href="https://fpk.unn.ru/"> <svg class="svg-logo" width="52" height="58" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="logo" d="M51.8299 6.92972C47.7087 4.8409 43.3411 3.27864 38.8299 2.27973C38.7375 2.26855 38.6443 2.29365 38.5699 2.34974C38.5327 2.37768 38.5024 2.41392 38.4816 2.45557C38.4608 2.49723 38.4499 2.54315 38.4499 2.58973V30.9997C38.4499 32.0606 38.0285 33.078 37.2784 33.8282C36.5282 34.5783 35.5108 34.9997 34.4499 34.9997C33.3891 34.9997 32.3717 34.5783 31.6215 33.8282C30.8714 33.078 30.4499 32.0606 30.4499 30.9997V1.37974C30.4503 1.30246 30.4218 1.22784 30.37 1.17049C30.3182 1.11315 30.2468 1.07722 30.1699 1.06974C28.9699 0.999739 27.8499 0.969733 26.7399 0.969733C23.5427 0.968213 20.3511 1.23919 17.1999 1.77973C17.1275 1.79355 17.0621 1.83194 17.0147 1.88842C16.9674 1.9449 16.9409 2.01601 16.9399 2.08973V29.7197C17.0934 34.2586 19.0044 38.5603 22.2695 41.7169C25.5346 44.8735 29.8985 46.638 34.4399 46.638C38.9814 46.638 43.3453 44.8735 46.6104 41.7169C49.8755 38.5603 51.7865 34.2586 51.9399 29.7197V7.19973C51.9471 7.14902 51.9407 7.09733 51.9213 7.0499C51.902 7.00248 51.8705 6.96101 51.8299 6.92972Z 
+                    M50.58 40.7401C50.5191 40.679 50.4443 40.6338 50.362 40.6082C50.2798 40.5826 50.1925 40.5775 50.1078 40.5933C50.0231 40.609 49.9435 40.6452 49.8759 40.6987C49.8083 40.7521 49.7548 40.8212 49.72 40.9C46.72 46.56 40.11 49.75 33.52 49.5C19.1 48.94 14.1 38.6801 14.1 29.2101V2.84004C14.1 2.79347 14.0891 2.74754 14.0683 2.70589C14.0475 2.66423 14.0172 2.628 13.98 2.60005C13.8967 2.56561 13.8032 2.56561 13.72 2.60005C9.16213 3.61777 4.74597 5.18945 0.569962 7.28005C0.51833 7.3035 0.474712 7.34158 0.444496 7.38957C0.414281 7.43756 0.398797 7.49335 0.399964 7.55005V30.65C1.58996 52.65 24.75 57.76 25.57 57.76C26.39 57.76 43.57 55.7 49.88 43.18C49.9106 43.0942 49.9473 43.0106 49.99 42.93C50.0529 42.8097 50.1096 42.6862 50.16 42.56C50.27 42.35 50.36 42.14 50.46 41.93C50.4379 41.949 50.4207 41.973 50.41 42C50.56 41.62 50.64 41.39 50.64 41.37C50.6897 41.2699 50.7104 41.1578 50.6998 41.0465C50.6892 40.9352 50.6477 40.829 50.58 40.7401Z" fill="#201600"/>
+                    </svg></a>
+                    <a class="fpk-unn" target="_blank" href="https://fpk.unn.ru/"><p class="logo__info">ФАКУЛЬТЕТ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ И
+                    <br> ПРОФЕССИОНАЛЬНОЙ ПЕРЕПОДГОТОВКИ
+                    <br> УНИВЕРСИТЕТА ЛОБАЧЕВСКОГО</p></a>
+                    </div>
+                    <div class="page-footer__copyright">
+                        <p class="copyright__info">© Все права защищены</p>
+                        <p>Нижний Новгород 2022 год</p>
+                    </div>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
